@@ -1,0 +1,23 @@
+<!DOCTYPE html >
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>System State</title>
+</head>
+<body>
+<h1>System State</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Field</th><th>Value</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td th:text="counter">Counter</td>
+        <td th:text="${system.counter}"></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
